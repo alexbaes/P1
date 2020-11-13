@@ -108,33 +108,6 @@ p{
 	font-family: 'Roboto Slab' , serif;
 }
 
-/*POPUP*/
-#modal{
-  z-index: 1;
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-}
-#modal .modalStyle{
-  width: 200px;
-  background: var(--lightblue);
-  border: 2px solid var(--darkblue);
-  padding: 15px 25px;
-  text-align: center;
-  border-radius: 6px;
-}
-.modalHasContent{
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0,0,0,0.7);
-}
-.popupText{
-  display: none;
-}
 
 /* HOME */
 

@@ -8,20 +8,8 @@
 	<script src="./index.js"></script>
 
 	<script>
-		const $ = document.querySelector.bind(document);
-		const mdl = $('#modal');
-
-		function popupFunction(e) {
-		  const targ = e.target;
-		  const prnt = targ.closest('div.popup');
-		  const chldn = prnt.childNodes;
-		  const txt = [...chldn].filter((d) => d.className === 'popupText');
-		  const msg = txt[0].innerText;
-		  $('#modal .modalStyle').innerText = msg;
-		  $('#modal').classList.add('modalHasContent');
-		}
-		function closeModal(e){
-		  e.target.classList.remove('modalHasContent');
+		function popup(){
+			alert("Coming Soon!!");
 		}
 	</script>
 </head>
@@ -40,7 +28,7 @@
 				<li class="menu-nav__button"><a class="link" href="index.html#premis">Premis</a></li>
 			</ul>
 		</nav>
-		<div class="header__button">
+		<div onclick="popup()" class="header__button">
 			<a class="link" href="#">Accedir</a>
 		</div>
 	</header>
@@ -60,14 +48,14 @@
 		</section>
 		<section  id="noveles" class="section section-novels">		
 			<div class="section-noveles__intro">
-			<h2 class="section__title-h2">Tipus de novel·les</h2>
-			<p>Stephen King ha escrit y publicat moltes obres, concretament, 61 novel·les, entre altres textos. Els gèneres principals que tracta són el terror, la ficció sobrenatural, la fantasia i el suspens, sempre amb un to fosc i misteriós. Aquí pots escollir quin és el gènere que t'interessa més.</p>
+				<h2 class="section__title-h2">Tipus de novel·les</h2>
+				<p>Stephen King ha escrit y publicat moltes obres, concretament, 61 novel·les, entre altres textos. Els gèneres principals que tracta són el terror, la ficció sobrenatural, la fantasia i el suspens, sempre amb un to fosc i misteriós. Aquí pots escollir quin és el gènere que t'interessa més.</p>
 			</div>
 			<div class="section-novels__gallery flex" >
 				<div class="novels__gallery">
 					<a class="link" href="terror.html">
 						<img class="novels__gallery-img" src="images/terror.jpg" alt="Passadís terrorific" title="Passadís terrorífic">
-						<div>Terror</div>
+						<div class="novels__gallery-title">Terror</div>
 					</a>
 				</div>
 				<div class="novels__gallery">
@@ -76,28 +64,21 @@
 						<div class="novels__gallery-title">Thriller</div>
 					</a>
 				</div>
-				<div class="novels__gallery popup" onclick="popupFunction(event)">
+				<div class="novels__gallery popup" onclick="popup()">
 					<img class="novels__gallery-img" src="images/fantasia.jpg" alt="Camí fantàstic" title="Camí fantàstic">
 					<div class="novels__gallery-title">Fantasia</div>
-					<span class="popupText">Coming Soon!</span>
 				</div>
-				<div class="novels__gallery popup" onclick="popupFunction(event)">
+				<div class="novels__gallery popup" onclick="popup()">
 					<img class="novels__gallery-img" src="images/suspens.jpg" alt="Personatges en una habitació" title="Personatges en una habitació">
 					<div class="novels__gallery-title">Sobrenatural</div>
-					<span class="popupText">Coming Soon!</span>
 				</div>
-				<div class="novels__gallery popup" onclick="popupFunction(event)">
+				<div class="novels__gallery popup" onclick="popup()">
 					<img class="novels__gallery-img" src="images/cienfic.jpg" alt="Imatge futurística" title="Imatge circular futurística">
 					<div class="novels__gallery-title">Ciència-ficció</div>
-					<span class="popupText">Coming Soon!</span>
 				</div>
-				<div class="novels__gallery popup" onclick="popupFunction(event)">
+				<div class="novels__gallery popup" onclick="popup()">
 					<img class="novels__gallery-img" src="images/misteri.jpg" alt="Bosc amb silueta d'home" title="Bosc amb silueta d'home">
 					<div class="novels__gallery-title">Misteri</div>
-					<span class="popupText">Coming Soon!</span>
-				</div>
-				<div id="modal" onclick="closeModal(event)">
-  				<div class="modalStyle"></div>
 				</div>
 			</div>
 		</section>
