@@ -22,7 +22,7 @@
 				<li class="menu-nav__button"><a class="link" href="index.html#premis">Premis</a></li>
 			</ul>
 		</nav>
-		<div id="boto" onclick="alerta()" class="header__button">
+		<div id="boto" class="header__button">
 			<a class="link" href="#">Accedir</a>
 		</div>
 	</header>
@@ -58,19 +58,19 @@
 						<div class="novels__gallery-title">Thriller</div>
 					</a>
 				</div>
-				<div class="novels__gallery popup">
+				<div class="novels__gallery">
 					<img class="novels__gallery-img" src="images/fantasia.jpg" alt="Camí fantàstic" title="Camí fantàstic">
 					<div class="novels__gallery-title">Fantasia</div>
 				</div>
-				<div class="novels__gallery popup">
+				<div class="novels__gallery">
 					<img class="novels__gallery-img" src="images/suspens.jpg" alt="Personatges en una habitació" title="Personatges en una habitació">
 					<div class="novels__gallery-title">Sobrenatural</div>
 				</div>
-				<div class="novels__gallery popup">
+				<div class="novels__gallery">
 					<img class="novels__gallery-img" src="images/cienfic.jpg" alt="Imatge futurística" title="Imatge circular futurística">
 					<div class="novels__gallery-title">Ciència-ficció</div>
 				</div>
-				<div class="novels__gallery popup">
+				<div class="novels__gallery">
 					<img class="novels__gallery-img" src="images/misteri.jpg" alt="Bosc amb silueta d'home" title="Bosc amb silueta d'home">
 					<div class="novels__gallery-title">Misteri</div>
 				</div>
@@ -112,9 +112,20 @@
 	</footer>
 	
 	<script>
+		function iniciar(){
+			document.getElementById("boto").onclick = alerta();
+		}	
+
 		function alerta(){
-			alert("Coming Soon!!");	
+			return _alertar;
 		}
+
+		function _alertar(){
+			alert("Coming Soon !");
+		}
+
+		iniciar();
+		
 	</script>
 	
 </body>
