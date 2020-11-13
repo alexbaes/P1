@@ -184,7 +184,7 @@ p{
 /* TERROR */
 
 .cover-genre{
-	background-image: url(images/portadaTerror.jpg);
+	background-image: url(/portadaTerror.b7f86af2.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
@@ -317,7 +317,8 @@ p{
 	/*HOME*/
 
 	.main__cover{
-		object-fit: cover;
+		-o-object-fit: cover;
+		   object-fit: cover;
 		height: 340px;
 	}
 
@@ -423,3 +424,6 @@ p{
 
 
 
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
