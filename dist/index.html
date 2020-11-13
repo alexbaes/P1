@@ -22,7 +22,7 @@
 				<li class="menu-nav__button"><a class="link" href="/index.html#premis">Premis</a></li>
 			</ul>
 		</nav>
-		<div class="header__button">
+		<div id="boto" class="header__button">
 			<a class="link" href="#">Accedir</a>
 		</div>
 	</header>
@@ -42,14 +42,14 @@
 		</section>
 		<section id="noveles" class="section section-novels">		
 			<div class="section-noveles__intro">
-			<h2 class="section__title-h2">Tipus de novel·les</h2>
-			<p>Stephen King ha escrit y publicat moltes obres, concretament, 61 novel·les, entre altres textos. Els gèneres principals que tracta són el terror, la ficció sobrenatural, la fantasia i el suspens, sempre amb un to fosc i misteriós. Aquí pots escollir quin és el gènere que t'interessa més.</p>
+				<h2 class="section__title-h2">Tipus de novel·les</h2>
+				<p>Stephen King ha escrit y publicat moltes obres, concretament, 61 novel·les, entre altres textos. Els gèneres principals que tracta són el terror, la ficció sobrenatural, la fantasia i el suspens, sempre amb un to fosc i misteriós. Aquí pots escollir quin és el gènere que t'interessa més.</p>
 			</div>
 			<div class="section-novels__gallery flex">
 				<div class="novels__gallery">
 					<a class="link" href="/terror.html">
 						<img class="novels__gallery-img" src="/terror.e4e24af6.jpg" alt="Passadís terrorific" title="Passadís terrorífic">
-						<div>Terror</div>
+						<div class="novels__gallery-title">Terror</div>
 					</a>
 				</div>
 				<div class="novels__gallery">
@@ -58,28 +58,21 @@
 						<div class="novels__gallery-title">Thriller</div>
 					</a>
 				</div>
-				<div class="novels__gallery popup" onclick="popupFunction(event)">
+				<div class="novels__gallery">
 					<img class="novels__gallery-img" src="/fantasia.1d822503.jpg" alt="Camí fantàstic" title="Camí fantàstic">
-					<div class="novels__gallery-title">Fantasia</div>
-					<span class="popupText">Coming Soon!</span>
+					<div class="novels__gallery-title">Fantasia<br><span class="novels__gallery-subtitle">(Coming Soon)</span></div>
 				</div>
-				<div class="novels__gallery popup" onclick="popupFunction(event)">
+				<div class="novels__gallery">
 					<img class="novels__gallery-img" src="/suspens.2659154a.jpg" alt="Personatges en una habitació" title="Personatges en una habitació">
-					<div class="novels__gallery-title">Sobrenatural</div>
-					<span class="popupText">Coming Soon!</span>
+					<div class="novels__gallery-title">Sobrenatural<br><span class="novels__gallery-subtitle">(Coming Soon)</span></div>
 				</div>
-				<div class="novels__gallery popup" onclick="popupFunction(event)">
+				<div class="novels__gallery">
 					<img class="novels__gallery-img" src="/cienfic.0bd7c7a0.jpg" alt="Imatge futurística" title="Imatge circular futurística">
-					<div class="novels__gallery-title">Ciència-ficció</div>
-					<span class="popupText">Coming Soon!</span>
+					<div class="novels__gallery-title">Ciència-ficció<br><span class="novels__gallery-subtitle">(Coming Soon)</span></div>
 				</div>
-				<div class="novels__gallery popup" onclick="popupFunction(event)">
+				<div class="novels__gallery">
 					<img class="novels__gallery-img" src="/misteri.252083e6.jpg" alt="Bosc amb silueta d'home" title="Bosc amb silueta d'home">
-					<div class="novels__gallery-title">Misteri</div>
-					<span class="popupText">Coming Soon!</span>
-				</div>
-				<div id="modal" onclick="closeModal(event)">
-  				<div class="modalStyle"></div>
+					<div class="novels__gallery-title">Misteri<br><span class="novels__gallery-subtitle">(Coming Soon)</span></div>
 				</div>
 			</div>
 		</section>
@@ -118,38 +111,19 @@
 		</div>
 	</footer>
 	
-	<script>function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
-
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
-
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-var $ = document.querySelector.bind(document);
-var mdl = $('#modal');
-
-function popupFunction(e) {
-  var targ = e.target;
-  var prnt = targ.closest('div.popup');
-  var chldn = prnt.childNodes;
-
-  var txt = _toConsumableArray(chldn).filter(function (d) {
-    return d.className === 'popupText';
-  });
-
-  var msg = txt[0].innerText;
-  $('#modal .modalStyle').innerText = msg;
-  $('#modal').classList.add('modalHasContent');
+	<script>function iniciar() {
+  document.getElementById("boto").onclick = alerta();
 }
 
-function closeModal(e) {
-  e.target.classList.remove('modalHasContent');
-}</script>
+function alerta() {
+  return _alertar;
+}
+
+function _alertar() {
+  alert("Coming Soon !");
+}
+
+iniciar();</script>
 	
 </body>
 </html>

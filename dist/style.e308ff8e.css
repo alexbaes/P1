@@ -47,13 +47,14 @@ p{
 
 .menu-nav__button{
 	display: inline;
-	padding-left: 15px;
+	padding-left: 10px;
 	font-size: 0.9rem;
 }
 
-.header__button{
+
+.header__button a{
 	background-color: var(--red);
-	padding: 3px 5px;
+	padding: 5px 12px;
 	border-radius: 6px;
 	text-decoration: none;
 	color: var(--white);
@@ -108,33 +109,6 @@ p{
 	font-family: 'Roboto Slab' , serif;
 }
 
-/*POPUP*/
-#modal{
-  z-index: 1;
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-}
-#modal .modalStyle{
-  width: 200px;
-  background: var(--lightblue);
-  border: 2px solid var(--darkblue);
-  padding: 15px 25px;
-  text-align: center;
-  border-radius: 6px;
-}
-.modalHasContent{
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0,0,0,0.7);
-}
-.popupText{
-  display: none;
-}
 
 /* HOME */
 
@@ -163,6 +137,9 @@ p{
 	padding: 5px;
 }
 
+.novels__gallery-subtitle{
+	font-size: 0.8rem;
+}
 
 /* premis */
 .section-prize__list{
@@ -277,8 +254,21 @@ p{
 		padding: 1% 5%;
 	}
 
+	.logo{
+		width: 10%;
+	}
+
+	.menu{
+		width: 80%;
+		text-align: center;
+	}
+
+	.header__button{
+		width: 10%;
+	}
+
 	.menu-nav__button{
-		margin-left: 50px;
+		padding: 0 30px;
 	}
 
 	.section{
@@ -302,16 +292,6 @@ p{
 		padding: 1% 5%;
 		height: 80px;
 	}
-
-	#modal .modalStyle{
-  		width: 300px;
-  		background: var(--lightblue);
-  		border: 2px solid var(--darkblue);
-  		padding: 30px 45px;
-  		text-align: center;
-  		border-radius: 6px;
-  		font-size: 2rem;
-}
 
 
 	/*HOME*/
