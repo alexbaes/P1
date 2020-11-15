@@ -21,7 +21,7 @@
 				<li class="menu-nav__button"><a class="link" href="index.html#premis">Premis</a></li>
 			</ul>
 		</nav>
-		<div class="header__button">
+		<div id="boto" class="header__button">
 			<a class="link" href="#">Accedir</a>
 		</div>
 	</header>
@@ -69,6 +69,17 @@
 			</ul>
 		</div>
 	</footer>
-	
+	<script>
+		function iniciar(){
+			document.getElementById("boto").onclick = alerta();
+		}	
+		function alerta(){
+			return _alertar;
+		}
+		function _alertar(){
+			alert("Coming Soon !");
+		}
+		iniciar();
+	</script>
 </body>
 </html>
