@@ -3,15 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Stephen King - Site</title>
+	<link rel="icon" href="images/sk.png" type="image/png">
+	<title>Stephen King Fans</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="./index.js"></script>
 </head>
 <body>
 	<header class="header flex">
 		<div class="logo">
-			<a href="index.html">
-				<img class="logo__image" src="images/sk.png" alt="logo SK">
+			<a href="index.html" class="logo__link">
+				<img class="logo__image" src="images/SK.svg" alt="logo SK">
+				<span class="link logo__title">StephenKingFans</span>
 			</a>
 		</div>
 		<nav class="menu">
@@ -26,6 +28,20 @@
 		</div>		
 	</header>
 	<main class="main">
+		<section class="cover__detail">
+			<picture>
+			  <source media="(max-width: 480px)"
+			          srcset="images/green@mobile.jpg">
+
+			  <source media="(max-width: 768px)"
+			          srcset="images/green@tablet.jpg">
+
+			  <source media="(max-width: 1440px)"
+			          srcset="images/green@desk.jpg">
+
+			  <img class="cover__detail-img" src="images/green.jpg" alt="agutzils de pressó al corredor">
+			</picture>
+		</section>
 		<section class="breadcrumb">
 			<ul class="breadcrumb__list">
 				<li class="breadcrumb__list-element"><a class="breadcrumb__list-element--link" href="index.html">Home</a></li>
@@ -40,12 +56,15 @@
 			<div class="section-intro-detail flex">
 				<p class="section-intro__text">Aquesta extensa novel·la de Stephen King va ser publicada amb 6 volums enlloc d'un sol llibre., l'any 1996. Com moltes obres de l'autor, va ser adaptada a la gran pantalla, l'any 1999 pel director Frank Darabont, sent tot un èxit i nominada a 4 Oscars. Tot i estar emmarcada dintre el gènere de suspens, conté alguns elements fantàstics, com moltes novel·les de King. </p>
 				<figure class="section-intro__figure">
-					<img class="section-intro__figure-img" src="images/theGreenMile.jpg" height="100" alt="Logo de The Green Mile" title="Logo de The Green Mile">
+					<img class="section-intro__figure-img" src="images/theGreenMile_logo.png" height="100" alt="Logo de The Green Mile" title="Logo de The Green Mile">
 				</figure>
 			</div>
 			<p>L'argument de la novel·la es centra en una penitencieria, la Cold Mountain, a Louisiana, on hi ha presos condemnats a mort. La història l'explica Paul, un extreballador de la presó, explica la seva experiència personal en aquell trist lloc i com li va afectar el tracte amb els presos que va conèixer mentre hi treballava.  </p>
 			<p>Un dels casos que li va xocar més a Paul va ser conèixer a John Coffey, un pres condemnat per violació i asessinat i que té uns poders curatius ocults. Més endavant els farà servir per curar una malaltia de Paul, entre altres moments. Cada cop que feia servir aquest poder, en Coffey havia d'expulsar el mal, sinó corria el perill de quedar-se amb ell i morir en qualsevol moment. </p>
-			<iframe class="section-detail__video" src="https://www.youtube.com/embed/iHH1EqPu2qA"></iframe>
+			<div class="section-multimedia flex">
+				<iframe class="section-detail__video" src="https://www.youtube.com/embed/iHH1EqPu2qA"></iframe>
+				<img src="images/green_mile.jpg" alt="Pres de color negre trist">
+			</div>
 			<p>A banda de Paul, hi ha altres treballadors a la presó, i alguns d'ells no tracten gens bé als condemnats, un d'ell és en Wetmore, qui no te cap mena de pietat amb la resta de gent, i qui se les veurà més endavant amb el propi Coffey. </p>
 			<p>Durant la novel·la hi ha moments que són d'una duresa i tristor màxima, ja que els temes que tracta King són reals i durs, sobretot a Estats Units, on hi ha acceptada la pena de mort. Els protagonistes d'aquesta història mostraran diversos punts de vista i ens faran sentir alguns cop ràbia, alguns impotència i molt pocs alegria.</p>
 		</section>

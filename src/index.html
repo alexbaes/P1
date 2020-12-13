@@ -3,16 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Stephen King - Site</title>
+	<link rel="icon" href="images/sk.png" type="image/png">
+	<title>Stephen King Fans</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="./index.js"></script>
 </head>
 <body>
-
 	<header class="header flex">
 		<div class="logo">
-			<a href="index.html">
-				<img class="logo__image" src="images/sk.png" alt="logo SK">
+			<a href="index.html" class="logo__link">
+				<img class="logo__image" src="images/SK.svg" alt="logo SK">
+				<span class="link logo__title">StephenKingFans</span>
 			</a>
 		</div>
 		<nav class="menu">
@@ -27,10 +28,14 @@
 		</div>
 	</header>
 	<main class="main">
-		<img class="main__cover" src="images/books.jpg" alt="imatge portada de SK" title="portada SK">
+		<picture>
+			  <source media="(max-width: 768px)"
+			          srcset="images/books@tablet.jpg">
+			  <img class="main__cover" src="images/books.jpg" alt="imatge portada de SK"  title="portada SK">
+		</picture>
 		<section class="section">
-			<h1 class="section__title-h1">SK - Stephen King</h1>
-			<p class="section__text">Aquest petit lloc web està dedicat a l'escriptor de novel·les Stephen King, un dels autors més influents dels últims temps. Les seves obres s'han venut arreu del món i algunes han arribat a adaptar-se a la gran pantalla. A més, Stephen King ha guanyat diversos al llarg de la seva extensa carrera.</p>
+			<h1 class="section__title-h1 title__home">SK - Stephen King</h1>
+			<p class="section__text par__home">Aquest petit lloc web està dedicat a l'escriptor de novel·les Stephen King, un dels autors més influents dels últims temps. Les seves obres s'han venut arreu del món i algunes han arribat a adaptar-se a la gran pantalla. A més, Stephen King ha guanyat diversos al llarg de la seva extensa carrera.</p>
 		</section>
 		<section id="biografia" class="section section-biography flex">
 			<div class="section-biography__intro">
@@ -98,15 +103,15 @@
 		</section>
 	</main>
 	<footer class="footer flex">
-		<div>
-			<ul class="footer-list">
-				<li>&copy; 2020 Àlex Barberà</li>
-			</ul>
+		<div class="footer-title">
+			<img src="images/sobrenatural.jpg" class="imgpath" alt="">
+			<p class="footer-list">STEPHEN KING FANS</p>
 		</div>
 		<div>
 			<ul class="footer-list">
 				<li class="footer-list__link"><a class="link" href="">Avís legal</a></li>
-				<li class="footer-list__link"><a class="link" href="">Política de privacitat</a></li>
+				<li class="footer-list__link"><a class="link" href="">Política de privacitat </a></li>
+				<li class="footer-list__link">&copy; 2020 Àlex Barberà</li>
 			</ul>
 		</div>
 	</footer>

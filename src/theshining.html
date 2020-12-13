@@ -3,15 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Stephen King - Site</title>
+	<link rel="icon" href="images/sk.png" type="image/png">
+	<title>Stephen King Fans</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="./index.js"></script>
 </head>
 <body>
 	<header class="header flex">
 		<div class="logo">
-			<a href="index.html">
-				<img class="logo__image" src="images/sk.png" alt="logo SK">
+			<a href="index.html" class="logo__link">
+				<img class="logo__image" src="images/SK.svg" alt="logo SK">
+				<span class="link logo__title">StephenKingFans</span>
 			</a>
 		</div>
 		<nav class="menu">
@@ -26,6 +28,20 @@
 		</div>
 	</header>
 	<main class="main">
+		<section class="cover__detail">
+			<picture>
+			  <source media="(max-width: 480px)"
+			          srcset="images/kid@mobile.jpg">
+
+			  <source media="(max-width: 768px)"
+			          srcset="images/kid@tablet.jpg">
+
+			  <source media="(max-width: 1440px)"
+			          srcset="images/kid@desk.jpg">
+
+			  <img class="cover__detail-img" src="images/kid.jpg" alt="El nen al mig del passadís">
+			</picture>
+		</section>
 		<section class="breadcrumb">
 			<ul class="breadcrumb__list">
 				<li class="breadcrumb__list-element"><a class="breadcrumb__list-element--link" href="index.html">Home</a></li>
@@ -45,7 +61,10 @@
 			</div>
 			<p>El protagonista d'aquesta història de terror és l'escriptor Jack Torrance, qui és dirigeix juntament amb la seva família a l'hotel Overlook a l'hiver per oferir-se com a cuidador. Aquesta feina li permetrà continuar escrivint les seves novel·les i demostrar que s'ha curat de l'alcoholisme (veiem la primera referència del personatge amb el propi Stephen King).</p>
 			<p>A pesar que l'hotel està completament aïllat, el clima hivernal i els problemes familiars, accepta el treball, sense imaginar-se el que li espera al protagonista. </p>
-			<iframe class="section-detail__video" src="https://www.youtube.com/embed/HJVVGzEbJC0"></iframe>
+			<div class="section-multimedia flex">
+				<iframe class="section-detail__video" src="https://www.youtube.com/embed/AmcnnRv58Z4"></iframe>
+				<img src="images/girls_shining.jpg" alt="Noies vestides blau al fons del passadís">
+			</div>
 			<p>Els dies van passant, i cada cop Torrance embogeix més, fins el punt que veu alucinacions i desconfia de la seva propia dona i fill, qui estan desasperats veient el comportament de Jack. L'hotel sembla que té un efecte encantador sobre els seus cuidadors i l'entron s'impregna de cert misticisme. El laberint que hi ha al jardí ens representa la ment del protagonista i de les seves paranoies. </p>
 			<p>Com podeu veure en aquest fragment de vídeo, els dialegs estan cuidats fins l'últim detall, i el rostre de Jack Nicholson (Jack Torrance) és expressiu i maquiavèl·lic. Sense dubte, una gran novel·la, i també una gran pel·lícula. </p>
 		</section>
