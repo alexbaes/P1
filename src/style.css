@@ -209,13 +209,22 @@ main{
 
 /* TERROR */
 
-.cover-genre{
-	background-image: url(images/portadaTerror.jpg);
+.cover-genre__terror{
+	background-image: url(images/terror.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
 
 }
+
+.cover-genre__thriller{
+	background-image: url(images/sobrenatural.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+
+}
+
 
 .cover-genre__title{
 	padding: 100px 0px;
@@ -437,6 +446,21 @@ main{
 	}
 
 	/*CATEGORY*/
+
+	.cover-genre__terror{
+		background-image: url(images/portadaTerror.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: cover;
+
+	}
+
+	.cover-genre__thriller{
+		background-image: url();
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: cover;
+	}
 
 	.breadcrumb__list{
 		margin: 1% 5%;	
