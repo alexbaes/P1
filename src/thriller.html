@@ -6,7 +6,7 @@
 	<link rel="icon" href="images/sk.png" type="image/png">
 	<title>Stephen King Fans</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="./index.js"></script>
+	<script src="./index.js" defer></script>
 </head>
 <body>
 	<header class="header flex">
@@ -28,7 +28,7 @@
 		</div>
 	</header>
 	<main class="main">
-		<div class="cover-genre"><h1 class="cover-genre__title">THRILLER</h1></div>
+		<div class="cover-genre__thriller"><h1 class="cover-genre__title">THRILLER</h1></div>
 		<section class="breadcrumb">
 			<ul class="breadcrumb__list">
 				<li class="breadcrumb__list-element"><a class="breadcrumb__list-element--link" href="index.html">Home</a></li>
@@ -69,7 +69,7 @@
 			</ul>
 		</div>
 	</footer>
-	<script>
+	<script defer>
 		function iniciar(){
 			document.getElementById("boto").onclick = alerta();
 		}	

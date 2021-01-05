@@ -456,7 +456,7 @@ main{
 	}
 
 	.cover-genre__thriller{
-		background-image: url();
+		background-image: url(images/portadaThriller.jpg);
 		background-repeat: no-repeat;
 		background-position: center top;
 		background-size: cover;
