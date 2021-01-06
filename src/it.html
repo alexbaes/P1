@@ -6,7 +6,7 @@
 	<link rel="icon" href="images/sk.png" type="image/png">
 	<title>Stephen King Fans</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="./index.js"></script>
+	<script src="./index.js" defer></script>
 </head>
 <body>
 	<header class="header flex">
@@ -62,7 +62,7 @@
 			<p>L'argument tracta sobre un grup de joves amics del poble de Derry, on viuen tranquil·lament, fins que un dia plujoós, en George, un nen del grup, surt al carrer i coneix a un pallasso a una claveguera, és en Pennywise. Aquest li regala un globus que en George no accepta, i seguidament li arrenca un braç i es mor desangrat al carrer. </p>
 			<p>A partir d'aquell fatídic dia, el grup d'amics es va trobant amb Pennywise, ja sigui a un pantà, a una casa encantada, etc, i intenten combatre'l però ho tenen complicat perquè el pallasso s'alimenta de la seva por, i quan estan amb ell els nens tenen molta por, així és com aconseguiex sobreviure aquest monstre. </p>
 			<div class="section-multimedia flex">
-				<iframe class="section-detail__video" src="https://www.youtube.com/embed/aUPq6X-Y1Kg"></iframe>
+				<iframe class="section-detail__video" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/aUPq6X-Y1Kg/?autoplay=1><img src=https://img.youtube.com/vi/aUPq6X-Y1Kg/hqdefault.jpg alt='AltTagContent'><span>▶</span></a>"> </iframe>
 				<img src="images/pennywise@tablet.jpg" alt="Pallasso amb un nen vestit de color groc">
 			</div>
 			<p>Com pots veure al vídeo, aquest pallasso no sembla gaire amable, i és complicat no marxar corrent cada cop que el tens davant. Tot i això, el grup d'amics aconsegueix enfrontar-se a ell i vence'l en una ocasió, o això creuen aquest valents joves.</p>
@@ -90,7 +90,7 @@
 			</ul>
 		</div>
 	</footer>
-	<script>
+	<script defer>
 		function iniciar(){
 			document.getElementById("boto").onclick = alerta();
 		}	

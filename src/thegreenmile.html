@@ -6,7 +6,7 @@
 	<link rel="icon" href="images/sk.png" type="image/png">
 	<title>Stephen King Fans</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="./index.js"></script>
+	<script src="./index.js" defer></script>
 </head>
 <body>
 	<header class="header flex">
@@ -62,7 +62,7 @@
 			<p>L'argument de la novel·la es centra en una penitencieria, la Cold Mountain, a Louisiana, on hi ha presos condemnats a mort. La història l'explica Paul, un extreballador de la presó, explica la seva experiència personal en aquell trist lloc i com li va afectar el tracte amb els presos que va conèixer mentre hi treballava.  </p>
 			<p>Un dels casos que li va xocar més a Paul va ser conèixer a John Coffey, un pres condemnat per violació i asessinat i que té uns poders curatius ocults. Més endavant els farà servir per curar una malaltia de Paul, entre altres moments. Cada cop que feia servir aquest poder, en Coffey havia d'expulsar el mal, sinó corria el perill de quedar-se amb ell i morir en qualsevol moment. </p>
 			<div class="section-multimedia flex">
-				<iframe class="section-detail__video" src="https://www.youtube.com/embed/iHH1EqPu2qA"></iframe>
+				<iframe class="section-detail__video" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/iHH1EqPu2qA/?autoplay=1><img src=https://img.youtube.com/vi/iHH1EqPu2qA/hqdefault.jpg alt='AltTagContent'><span>▶</span></a>"> </iframe>
 				<img src="images/green_mile.jpg" alt="Pres de color negre trist">
 			</div>
 			<p>A banda de Paul, hi ha altres treballadors a la presó, i alguns d'ells no tracten gens bé als condemnats, un d'ell és en Wetmore, qui no te cap mena de pietat amb la resta de gent, i qui se les veurà més endavant amb el propi Coffey. </p>
@@ -88,7 +88,7 @@
 			</ul>
 		</div>
 	</footer>
-	<script>
+	<script defer>
 		function iniciar(){
 			document.getElementById("boto").onclick = alerta();
 		}	

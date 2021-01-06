@@ -6,7 +6,7 @@
 	<link rel="icon" href="images/sk.png" type="image/png">
 	<title>Stephen King Fans</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="./index.js"></script>
+	<script src="./index.js" defer></script>
 </head>
 <body>
 	<header class="header flex">
@@ -62,7 +62,7 @@
 			<p>L'argument principal d'aquesta història tracta sobre la destrucció del poble de Chamberlain per culpa de l'estudiant Carrie. Aquesta nena va ser maltractada per la seva mare i a l'institut li han fet bulling des del primer dia. A mesura que passa el tems, la protagnista s'adona que té poders telequinètics.</p>
 			<p>La història continua amb el típic ball de fi de curs dels instituts d'Estats Units, on assisteixen tots els alumnes, normalment per parelles, i s'elegeix un rei i una reina de la nit. És en aquesta festa on alguns dels alumnes tenen pensat fer-li bromes pesades a Carrie, i la seva mare li intenta fer entendre que no cal que vagi, però tot i això ella decideix anar acompanyada i enfrontar-se als seus temors.</p>
 			<div class="section-multimedia flex">
-				<iframe class="section-detail__video" src="https://www.youtube.com/embed/l3ri8jIWSfU"></iframe>
+				<iframe class="section-detail__video" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/l3ri8jIWSfU/?autoplay=1><img src=https://img.youtube.com/vi/l3ri8jIWSfU/hqdefault.jpg alt='AltTagContent'><span>▶</span></a>"> </iframe>
 				<img src="images/carrie_face.jpg" alt="Noia pintant-se els ulls al mirall">
 			</div>
 			<p>A mesura que avança la pel·lícula hi apareix més sang, element que ja mostren al principi per remarcar que serà important. Com pots veure en aquesta escena, l'amor, l'odi i la ràbia, són alguns dels sentiments que la protagonista pateix al llarg de la història. </p>
@@ -88,7 +88,7 @@
 			</ul>
 		</div>
 	</footer>
-	<script>
+	<script defer>
 		function iniciar(){
 			document.getElementById("boto").onclick = alerta();
 		}	
