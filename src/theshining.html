@@ -7,6 +7,12 @@
 	<title>Stephen King Fans</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="./index.js" defer></script>
+	<script type="text/javascript">
+        function test()
+        {
+            document.getElementById('myvideo').src = 'https://www.youtube.com/embed/AmcnnRv58Z4';
+        }
+    </script>
 </head>
 <body>
 	<header class="header flex">
@@ -61,8 +67,8 @@
 			</div>
 			<p>El protagonista d'aquesta història de terror és l'escriptor Jack Torrance, qui és dirigeix juntament amb la seva família a l'hotel Overlook a l'hiver per oferir-se com a cuidador. Aquesta feina li permetrà continuar escrivint les seves novel·les i demostrar que s'ha curat de l'alcoholisme (veiem la primera referència del personatge amb el propi Stephen King).</p>
 			<p>A pesar que l'hotel està completament aïllat, el clima hivernal i els problemes familiars, accepta el treball, sense imaginar-se el que li espera al protagonista. </p>
-			<div class="section-multimedia flex">
-				<!--<iframe class="section-detail__video" src="https://www.youtube.com/embed/AmcnnRv58Z4"></iframe>-->
+			<div onload="test();" class="section-multimedia flex">
+				<iframe class="section-detail__video" src="https://www.youtube.com/embed/AmcnnRv58Z4"></iframe>
 				<img src="images/girls_shining.jpg" alt="Noies vestides blau al fons del passadís">
 			</div>
 			<p>Els dies van passant, i cada cop Torrance embogeix més, fins el punt que veu alucinacions i desconfia de la seva propia dona i fill, qui estan desasperats veient el comportament de Jack. L'hotel sembla que té un efecte encantador sobre els seus cuidadors i l'entron s'impregna de cert misticisme. El laberint que hi ha al jardí ens representa la ment del protagonista i de les seves paranoies. </p>
