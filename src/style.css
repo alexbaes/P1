@@ -306,6 +306,10 @@ main{
 	width: 100%;
 }
 
+.section-detail__video{
+	display: none;
+}
+
 .section-more-books__list{
 	text-align: center;
 	margin: 20px 0px;
@@ -517,6 +521,7 @@ main{
 	}
 
 	.section-detail__video{
+		display: none;
 		width: 100%;
 		margin: 20px auto;
 		max-width: 770px;
@@ -547,6 +552,7 @@ main{
 	}
 
 	.section-detail__video{
+		display: block;
 		width: 60%;
 		margin: 20px 0;
 		padding-right: 20px;
