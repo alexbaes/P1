@@ -140,7 +140,7 @@ main{
 
 
 article{
-	margin: 20px;
+	margin: 50px;
 }
 
 .section__title-h1{
@@ -373,9 +373,7 @@ article{
 		height: 80px;
 	}
 
-	article{
-		margin: 50px;
-	}
+	
 
 	/*HOME*/
 
