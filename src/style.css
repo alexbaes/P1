@@ -148,6 +148,7 @@ main{
 	color: var(--blue);
 	margin-bottom: 10px;
 	border-bottom: 1px solid var(--blue);
+	text-align: left;
 }
 
 .section__title-h2{
@@ -358,9 +359,6 @@ main{
 	}
 	
 	.section__title-h1{
-		text-align: center;
-		border: none;
-		font-family: 'Roboto slap' , serif;
 		font-size: 3rem;
 	}
 
@@ -488,15 +486,6 @@ main{
 	}
 
 	/* DETAIL */
-
-	.section-detail{
-		margin: 0px;
-	}
-
-	.section-detail .section__title-h1{
-		text-align: left;
-		border-bottom: 1px solid var(--blue);
-	}
 
 	.section-intro-detail{
 		align-items: center;
