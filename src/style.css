@@ -138,9 +138,9 @@ main{
 	margin: 0 auto;
 }
 
-/*.section {
-	margin: 50px 20px;
-}*/
+.section {
+	margin: 20px;
+}
 
 .section__title-h1{
 	font-family: 'Roboto Slab', serif;
@@ -353,10 +353,6 @@ main{
 		padding: 0 30px;
 	}
 
-	/*.section{
-		padding: 0px 50px;
-		margin: 50px 0px;
-	}*/
 	
 	.section__title-h1{
 		font-size: 3rem;
@@ -370,6 +366,10 @@ main{
 	.footer{
 		padding: 1% 5%;
 		height: 80px;
+	}
+
+	.section {
+		margin: 50px;
 	}
 
 	/*HOME*/
