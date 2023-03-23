@@ -10,3 +10,4 @@ La pràctica te com a objectius:
 - Aprender a validar el codi HTML i CSS (Validator.w3.org)
 - Analitzar el rendiment del lloc web (Google Page Speed)
 
+Podeu veure el lloc web a: https://alexbaes.netlify.app/
