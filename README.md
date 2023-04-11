@@ -1,13 +1,25 @@
-Aquest repositori consisteix en una pràctica realitzada durant el Master de Desenvluopament d'Aplicaions i Llocs Web de la UOC, corresponent a l'assignatura d'Eines HTML i CSS.
+# StevenKingFans :computer:
 
-La pràctica te com a objectius:
-- Desenvolupar un lloc web responsive amb HTML5 i CSS3
-- Familiaritzar-se amb l'ús de la terminal (en aquest cas es va utilizar Ubuntu en un sistema Windows).
-- Aprendre a instal·lar NPM i NodeJs.
-- Conèixer Parcel. 
-- Familiaritzar-se amb Github
-- Conèixer Netlify
-- Aprender a validar el codi HTML i CSS (Validator.w3.org)
-- Analitzar el rendiment del lloc web (Google Page Speed)
+## Descripción
+Este repositorio consiste en una práctica realizada durante el Master de Desarrollo de Aplicaciones y Sitios Web de la UOC, correspondiente a la asignatura de Herramientas HTML y CSS. Los objetivos eran:
+* Desarrollar un sitio web responsive con HTML5 y CSS3
+* Familiarizarse con el uso de la terminal (se utilizó Ubuntu en un sistema Windows).
+* Aprender a instalar NPM y NodeJs.
+* Conocer Parcel
+* Familiarizarse con Github
+* Aprender a validar el código HTML y CSS (Validator.w3.org)
+* Analizar el rednimiento del sitio web (Google Page Speed).
 
-Podeu veure el lloc web a: https://alexbaes.netlify.app/
+## Autor
+**Àlex Barberà Escribà**
+
+* [LinkedIn](https://linkedin.com/in/alexbaes)
+
+## Ver ejemplo en vivo
+- [Rick y Morty App](https://alexbaes.netlify.app/)
+
+## Instalación
+El proyecto requiere tener instalado Node.JS
+
+## Contactar
+Si quieres contactar puedes escribirme a *alex@baesaudiovisual.com*
