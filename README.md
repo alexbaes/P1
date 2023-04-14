@@ -1,4 +1,4 @@
-# StevenKingFans :computer:
+# StephenKingFans :computer:
 
 ## Descripción
 Este repositorio consiste en una práctica realizada durante el Master de Desarrollo de Aplicaciones y Sitios Web de la UOC, correspondiente a la asignatura de Herramientas HTML y CSS. Los objetivos eran:
@@ -16,7 +16,7 @@ Este repositorio consiste en una práctica realizada durante el Master de Desarr
 * [LinkedIn](https://linkedin.com/in/alexbaes)
 
 ## Ver ejemplo en vivo
-- [Steven King Fans App](https://alexbaes.netlify.app/)
+- [Stephen King Fans App](https://alexbaes.netlify.app/)
 
 ## Instalación
 El proyecto requiere tener instalado Node.JS
