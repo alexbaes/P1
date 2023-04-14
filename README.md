@@ -16,7 +16,7 @@ Este repositorio consiste en una práctica realizada durante el Master de Desarr
 * [LinkedIn](https://linkedin.com/in/alexbaes)
 
 ## Ver ejemplo en vivo
-- [Rick y Morty App](https://alexbaes.netlify.app/)
+- [Steven King Fans App](https://alexbaes.netlify.app/)
 
 ## Instalación
 El proyecto requiere tener instalado Node.JS
